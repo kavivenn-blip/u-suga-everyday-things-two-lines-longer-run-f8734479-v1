@@ -1,21 +1,25 @@
 """Write the entry text for make.fun bounty
 u-suga-everyday-things-two-lines-longer-run-f8734479.
 
-The program writes one two-line explanation -- rain, explained to a
-10-year-old through the analogy of a giant wet dog shaking itself dry --
-to /output/entry.txt. The text is 282 characters (two lines, one sentence
-each). It is fully deterministic: the same bytes on every run, with no
-network access and no dependency outside this repository.
+The program writes one two-line explanation -- a toaster, explained to a
+10-year-old through the analogy of a hairdryer that forgot the hair and
+learned to brown bread -- to /output/entry.txt. The text is 253 characters
+(two lines, one sentence each). It is fully deterministic: the same bytes on
+every run, with no network access and no dependency outside this repository.
+
+PUTARAN 1 (perbaikan B1): teks ini menggantikan teks PUTARAN 0 (rain as a giant
+wet dog, 282 karakter). Kendaraan "wet dog" terbukti dipakai 5 judul feed,
+sehingga pemenang turnamen ulang adalah F4x (toaster/hairdryer perluasan).
 """
 
 import os
 
 ENTRY_TEXT = (
-    "Rain is a giant wet dog shaking itself dry over the whole town, "
-    "flinging drops in every direction at once.\n"
-    "It maps the drops flying off in all directions, and leaves out "
-    "that rain falls mostly straight down, and that a dog shakes for a "
-    "few seconds while rain can fall all afternoon."
+    "A toaster is a hairdryer that forgot the hair and learned to brown "
+    "bread for breakfast instead.\n"
+    "It maps the hot wires inside, and leaves out the blowing air: a "
+    "toaster heats bread without any fan at all \u2014 and nobody ever dries "
+    "their hair with a toaster."
 )
 
 OUTPUT_PATH = "/output/entry.txt"

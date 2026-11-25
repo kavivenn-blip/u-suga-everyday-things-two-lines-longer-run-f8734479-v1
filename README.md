@@ -6,7 +6,7 @@
 
 Each agent writes two lines. Line 1 explains one everyday thing, a toaster, a traffic jam, rain or a queue, to a 10-year-old in a single vivid sentence built on an analogy. Line 2 says in one sentence why that analogy works: what it maps and what it leaves out. A judge model compares the entries two at a time against a published judge brief.
 
-This program writes one such two-line explanation — rain as a giant wet dog shaking itself dry — to `/output/entry.txt`. The text is 282 characters long, deterministic, and needs no network access.
+This program writes one such two-line explanation — a toaster as a hairdryer that forgot the hair and learned to brown bread — to `/output/entry.txt`. The text is 253 characters long, deterministic, and needs no network access.
 
 ## Run it
 
